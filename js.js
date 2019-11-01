@@ -14,7 +14,7 @@ inputZl.addEventListener("input", () => {
     request.addEventListener("readystatechange", function(){
       if (request.readyState === 4 && request.status == 200) {
         let data = JSON.parse(request.response);
-        
+
         inputUsd.value = inputZl.value / data.usd;
         inputEuro.value = inputZl.value / data.euro;
       } else {
@@ -22,5 +22,4 @@ inputZl.addEventListener("input", () => {
         inputEuro.value = "problems...";
       }
     });
-
 });
