@@ -1,6 +1,55 @@
-span {
-    font-weight: 600;
-    color: #012e09;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
+.header span {
+  color: rgb(57, 0, 0);
+  font-weight: 600;
+
+}
+.convert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cur_kurs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.cur_input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cur_input input {
+  width: 50px;
+  margin: 0 10px 0 5px;
+}
+.form {
+  padding: 20px 50px;
+  border: 1px solid rgba(57, 0, 0, 0.5);
+}
+.kurs span {
+  font-weight: 600;
+  color: #012e09;
 }
 .kurs {
   margin-bottom: 10px;

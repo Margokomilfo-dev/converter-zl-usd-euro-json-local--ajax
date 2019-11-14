@@ -8,19 +8,40 @@
   <title>JSON/AJAX</title>
 </head>
 <body>
-  <div class="kurs">
-    <span>Zł</span> <br>
-    <input id="zl" type="text" placeholder="input number" > 
+  <div class="wrapper">
+    <div class="header"> 
+      <p><span>Самый простой конвертор валют</span> <br> с помощью AJAX и локального сервера JSON</p>
+    </div>
+    
+    <div class="convert">
+
+      <div class="cur_kurs">
+        <p>Текущий курс валют на сервере:</p>
+        <div class="cur_input">
+          usd <input type="text" id="cur_in1" disabled>
+          euro <input type="text" id="cur_in2" disabled>
+        </div>
+      </div>
+
+      <div class="form">
+          <div class="kurs">
+              <span>Zł</span> <br>
+              <input id="zl" type="text" placeholder="input number" > 
+            </div>
+    
+            <div class="kurs">
+              <span>USD</span><br>
+              <input id="usd" type="text" disabled>
+            </div>
+    
+            <div class="kurs">
+              <span>Euro</span><br>
+              <input id="euro" type="text" disabled>
+            </div>
+      </div>
+        
+    </div>
   </div>
-  <div class="kurs">
-    <span>USD</span><br>
-    <input id="usd" type="text">
-  </div>
-  <div class="kurs">
-    <span>Euro</span><br>
-    <input id="euro" type="text">
-  </div>
-  
   <script src="js.js"></script>
 </body>
 </html>
