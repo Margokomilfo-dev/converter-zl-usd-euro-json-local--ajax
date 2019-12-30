@@ -43,6 +43,7 @@
     };
   }); 
 
+//promise (don't work)
 
   // inputZl.addEventListener("input", () => {
   //   let p = new Promise((resolve, reject) => {

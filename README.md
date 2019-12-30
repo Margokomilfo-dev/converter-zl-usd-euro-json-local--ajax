@@ -8,6 +8,8 @@ RU -------
  1. <script src="js.js"></script> (index.html)
  2. request.open("GET", "current.json"); (js.js)
 
+ promise-версия в js не работает (дорабатываю)
+
 EN -------
 The largest currency converter from Zl to USD and Euro with help AJAX and local server JSON
 1)intrex.html 
