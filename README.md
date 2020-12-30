@@ -1,5 +1,8 @@
 # converter-zl-usd-json-local--ajax
-RU -------
+RU
+
+---
+
 Самый простой конвертор валют из Zł(PLN) в USD и Euro с помощью AJAX и локального сервера JSON
 1)intrex.html 
 2)js.js
@@ -10,7 +13,12 @@ RU -------
 
  promise-версия в js не работает (дорабатываю)
 
-EN -------
+<br/>
+
+EN
+
+---
+
 The largest currency converter from Zl to USD and Euro with help AJAX and local server JSON
 1)intrex.html 
 2)js.js
@@ -19,7 +27,12 @@ All files are in the common folder.
  1. <script src="js.js"></script> (index.html)
  2. request.open("GET", "current.json"); (js.js)
 
-PL -------
+<br/>
+
+PL
+
+---
+
 Najprostrzy przelicznik walut Zł -> USD i Euro z pomocą AJAX i lokalnego serweru JSON
 1)intrex.html 
 2)js.js
@@ -27,3 +40,7 @@ Najprostrzy przelicznik walut Zł -> USD i Euro z pomocą AJAX i lokalnego serwe
 Wszystkie pliki muszą znajdować się w folderze współdzielonym. W przeciwnym razie ścieżki plików powinny zostać poprawione.
  1. <script src="js.js"></script> (index.html)
  2. request.open("GET", "current.json"); (js.js)
+
+![alt text](./1.png) 
+![alt text](./2.png) 
+![alt text](./3.png) 
